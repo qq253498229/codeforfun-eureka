@@ -11,7 +11,6 @@
 官方仓库镜像: `codeforfun/eureka:1.0.0`
 
 最小化例子:
-
 ```yaml
 version: "3"
 services:
@@ -22,7 +21,6 @@ services:
 ```
 
 将自身注册到eureka:
-
 ```yaml
 version: "3"
 services:
