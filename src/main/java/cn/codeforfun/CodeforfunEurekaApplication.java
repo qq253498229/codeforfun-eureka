@@ -1,0 +1,18 @@
+package cn.codeforfun;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+/**
+ * @author wangbin
+ */
+@SpringBootApplication
+@EnableEurekaServer
+public class CodeforfunEurekaApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(CodeforfunEurekaApplication.class, args);
+    }
+
+}
