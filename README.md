@@ -8,16 +8,16 @@
 
 [码云仓库](https://gitee.com/consolelog/codeforfun-eureka)
 
-阿里云仓库镜像: `registry.cn-beijing.aliyuncs.com/codeforfun/eureka:1.0.0`
+阿里云仓库镜像: `registry.cn-beijing.aliyuncs.com/codeforfun/eureka:latest`
 
-官方仓库镜像: `codeforfun/eureka:1.0.0`
+官方仓库镜像: `codeforfun/eureka:latest`
 
 最小化例子:
 ```yaml
 version: "3"
 services:
   eureka:
-    image: registry.cn-beijing.aliyuncs.com/codeforfun/eureka:1.0.0
+    image: registry.cn-beijing.aliyuncs.com/codeforfun/eureka:latest
     ports:
       - "8761:8761"
 ```
@@ -27,7 +27,7 @@ services:
 version: "3"
 services:
   eureka:
-    image: registry.cn-beijing.aliyuncs.com/codeforfun/eureka:1.0.0
+    image: registry.cn-beijing.aliyuncs.com/codeforfun/eureka:latest
     environment:
       SPRING_APPLICATION_NAME: center-eureka
       REGISTRY: 'true'
