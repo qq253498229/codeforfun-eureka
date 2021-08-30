@@ -1,0 +1,12 @@
+version: "3"
+services:
+  eureka:
+    image: registry.cn-beijing.aliyuncs.com/codeforfun/eureka-server:1.0.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "50001:8761"
+    environment:
+      EUREKA_HOSTNAME: 192.168.122.94
+      EUREKA_URL: http://192.168.122.94:50001/eureka
