@@ -1,7 +1,7 @@
 version: "3"
 services:
   eureka:
-    image: registry.cn-beijing.aliyuncs.com/codeforfun/eureka-server:1.0.0
+    image: registry.cn-beijing.aliyuncs.com/codeforfun/eureka:1.0.0
     build:
       context: .
       dockerfile: Dockerfile
